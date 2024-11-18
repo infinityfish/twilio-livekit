@@ -1,0 +1,28 @@
+{
+  "name": "livekit-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^8.0.1",
+    "@fastify/websocket": "^11.0.1",
+    "@livekit/agents": "^0.4.4",
+    "@livekit/agents-plugin-deepgram": "0.4.4",
+    "@livekit/agents-plugin-elevenlabs": "0.4.4",
+    "@livekit/agents-plugin-openai": "0.5.0",
+    "@livekit/agents-plugin-silero": "0.4.4",
+    "@livekit/rtc-node": "^0.11.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "livekit-server-sdk": "^2.8.1",
+    "onnxruntime-node": "1.16.3",
+    "z": "^1.0.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --experimental-modules server.js"
+  },
+  "type": "module"
+}
